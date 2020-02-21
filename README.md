@@ -11,7 +11,7 @@ This code repo shows the implementation of an InSpec profile running against an 
 Set up your AWS Credentials [InSpec-AWS](https://github.com/inspec/inspec-aws#prerequisites)
 
 ### Video Demo
-The following video shows the code in action.
+Don't have time to get your fingers dirty with code? Well, here is a video showing the code in action.
 
 [![Alt text](https://img.youtube.com/vi/aktcFsH1gro/0.jpg)](https://youtu.be/aktcFsH1gro)
 

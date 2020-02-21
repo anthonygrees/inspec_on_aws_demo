@@ -74,7 +74,7 @@ inspec exec inspec-aws-security -t aws://us-west-2/
 Your output on the command line will look like this:
 ![InSpecOutput](/images/inspec_output.png)
 
-### Send you InSpec output to Chef Automate
+### How to send your InSpec output to Chef Automate
 You will need to add a Chef Automate API `token` to the file `inspec-aws-security/automate.json` in order to send your output.
 
 ```bash

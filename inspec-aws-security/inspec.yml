@@ -1,8 +1,8 @@
 name: inspec-aws-security
 title: InSpec Profile
-maintainer: The Authors
+maintainer: Anthony Rees
 copyright: The Authors
-copyright_email: you@example.com
+copyright_email: anthony@chef.io
 license: Apache-2.0
 summary: An InSpec Compliance Profile
 version: 0.1.0

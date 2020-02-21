@@ -1,7 +1,11 @@
 # InSpec On AWS Demo
 
 ### About
-This demo shows the implementation of an InSpec profile running against an AWS environment and testing it.
+InSpec is an open-source testing framework by Chef that enables you to specify compliance, security, and other policy requirements.
+
+InSpec can scan your systems to ensure their configuration and the software that's installed meet your compliance and security requirements. InSpec can also test your IAM roles, security groups, and other AWS resources.
+
+This code repo shows the implementation of an InSpec profile running against an AWS environment that is created by Terraform and testing it.
 
 ### Prerequisites
 Set up your AWS Credentials [InSpec-AWS](https://github.com/inspec/inspec-aws#prerequisites)

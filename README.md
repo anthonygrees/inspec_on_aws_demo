@@ -51,7 +51,7 @@ subnet_public = params['subnet.public.id']['value']
 ### Execute InSpec against AWS
 
 ```bash
-inspec exec inspec-aws-security -t aws://us-west-2/chef-sa --json-config automate.json
+inspec exec inspec-aws-security -t aws://us-west-2/
 ```
 
 Your output on the command line will look like this:
@@ -61,7 +61,7 @@ Your output on the command line will look like this:
 You will need to add a Chef Automate API `token` to the file `inspec-aws-security/automate.json` in order to send your output.
 
 ```bash
-inspec exec inspec-aws-security -t aws://us-west-2/chef-sa --json-config inspec-aws-security/automate.json 
+inspec exec inspec-aws-security -t aws://us-west-2/ --json-config inspec-aws-security/automate.json 
 ```
 
 ![AutomateOutput](/images/automate_output.png)

@@ -15,15 +15,32 @@ The following video shows the code in action.
 
 [![Alt text](https://img.youtube.com/vi/aktcFsH1gro/0.jpg)](https://youtu.be/aktcFsH1gro)
 
+### Get Started
+First you need the code !
+```bash
+git clone https://github.com/anthonygrees/inspec_on_aws_demo
+
+cd inspec_on_aws_demo
+```
+
 ### Create an AWS environment to test againsts
-Execute the terraform. First run:
+Execute the terraform. First run the initialise to ensure the plugins you need are installed:
+
 ```bash
 terraform init
 ```
-and then apply:
+Before you run Terraform to create your infrastructure, it's a good idea to see what resources it would create. It also helps you verify that Terraform can connect to your AWS account.
+
 ```bash
-terraform apply
+terraform plan
 ```
+
+and then apply to create the infrastructure.
+
+```bash
+terraform apply -auto-approve
+```
+
 Once successfully created, you will get an output like this:
 ![TerraformOutput](/images/terraform_output.png)
 

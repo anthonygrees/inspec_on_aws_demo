@@ -8,6 +8,7 @@ Set up your AWS Credentials [InSpec-AWS](https://github.com/inspec/inspec-aws#pr
 
 ### Video Demo
 The following video shows the code in action.
+
 [![Alt text](https://img.youtube.com/vi/aktcFsH1gro/0.jpg)](https://youtu.be/aktcFsH1gro)
 
 ### Create an AWS environment to test againsts

@@ -1,0 +1,13 @@
+{
+    "reporter" : {
+        "automate" : {
+            "stdout" : "false",
+            "url" : "https://chefautomate.com/data-collector/v0",
+            "token" : "uwbIR50_YOUR_TOKEN_1QQe0A=",
+            "insecure" : true,
+            "node_name" : "AWS_API_TESTS",
+            "node_uuid" : "12345678-1234-1234-1234-123456789012",
+            "environment" : "dev"
+        }
+    }
+}

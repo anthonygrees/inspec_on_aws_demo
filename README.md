@@ -7,11 +7,18 @@ InSpec can scan your systems to ensure their configuration and the software that
 
 This code repo shows the implementation of an InSpec profile running against an AWS environment that is created by Terraform and testing it.
 
-### Prerequisites
-Set up your AWS Credentials [InSpec-AWS](https://github.com/inspec/inspec-aws#prerequisites)
+### Prerequisites - Setting up AWS credentials for InSpec
+Chef InSpec uses the standard AWS authentication mechanisms. Typically, you will create an IAM user specifically for auditing activities.
+
+1. Create an IAM user in the AWS console, with your choice of username. Check the box marked “Programmatic Access.”
+2. On the Permissions screen, choose Direct Attach. Select the AWS-managed IAM Profile named “ReadOnlyAccess.” If you wish to restrict the user further, you may do so; see individual Chef InSpec resources to identify which permissions are required.
+3. After generating the key, record the Access Key ID and Secret Key.
+More details are [here](https://github.com/inspec/inspec-aws#prerequisites)
+
+Set up your AWS Credentials [InSpec-AWS](https://www.inspec.io/docs/reference/platforms/)
 
 ### Video Demo
-Don't have time to get your fingers dirty with code? Well, here is a video showing the code in action.
+Don't have time to get your fingers dirty with code???? Well, here is a video showing the code in action.
 
 [![Alt text](https://img.youtube.com/vi/aktcFsH1gro/0.jpg)](https://youtu.be/aktcFsH1gro)
 

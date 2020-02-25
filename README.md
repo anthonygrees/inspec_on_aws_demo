@@ -13,7 +13,17 @@ Chef InSpec uses the standard AWS authentication mechanisms. Typically, you will
 1. Create an IAM user in the AWS console, with your choice of username. Check the box marked “Programmatic Access.”
 2. On the Permissions screen, choose Direct Attach. Select the AWS-managed IAM Profile named “ReadOnlyAccess.” If you wish to restrict the user further, you may do so; see individual Chef InSpec resources to identify which permissions are required.
 3. After generating the key, record the Access Key ID and Secret Key.
+
 More details are [here](https://github.com/inspec/inspec-aws#prerequisites)
+
+Here is an example config file:
+```bash
+# Example configuration
+    export AWS_ACCESS_KEY_ID="AKIAJUMP347SLS66IGCQ"
+    export AWS_SECRET_ACCESS_KEY="vD2lfoNvPdwsofqyuO9jRuWUkZIMqisdfeFmkHTy7ON+w"
+    export AWS_REGION="eu-west-3"
+    export AWS_AVAILABILITY_ZONE="eu-west-3a"  
+```
 
 Set up your AWS Credentials [InSpec-AWS](https://www.inspec.io/docs/reference/platforms/)
 
